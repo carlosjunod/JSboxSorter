@@ -17,4 +17,6 @@ body{
 /*boxes*/
 .box{
     margin: 0px auto;
+    color: white;
+    font-size: 2em;
 }
