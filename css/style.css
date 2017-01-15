@@ -1,6 +1,20 @@
 body{
     background-color: #eee;
+    min-height: 100%;
 }
+.container{
+    width: 45%;
+    float: left;
+    min-height: 100%;
+    text-align: center;
+}
+
 #unsorted{
     background: rgba(0,0,0,0.1);
+}
+
+
+/*boxes*/
+.box{
+    margin: 0px auto;
 }
