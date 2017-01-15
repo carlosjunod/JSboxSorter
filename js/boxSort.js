@@ -43,7 +43,6 @@ function printer(){
     var toPrint = '';
     boxes.forEach(function(b){
         toPrint += '<div class="box" style="width:'+b.width+'px; height:'+b.height+'px; background-color:#'+b.color+'; border:1px solid #fff">'+b.id+'</div>';
-        //console.log(toPrint);
     });
     return toPrint;
 }
